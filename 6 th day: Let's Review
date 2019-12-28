@@ -1,0 +1,14 @@
+for i in range(int(input())):
+  sr=input()
+  print(sr[::2],sr[1::2])
+'''Sample Input
+
+2
+Hacker
+Rank
+
+Sample Output
+
+Hce akr
+Rn ak
+'''
