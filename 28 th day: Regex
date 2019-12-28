@@ -1,0 +1,16 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+names = []
+N = int(input().strip())
+for _ in range(N):
+    firstName, emailID = input().split(' ')
+    if '@gmail.com' in emailID:
+        names.append(firstName)
+print(*sorted(names), sep='\n')
