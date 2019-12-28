@@ -1,0 +1,35 @@
+#number of entries in phonebook
+n = int(input())
+phoneBook = {}
+
+#assign in phoneBook
+for i in range(n):
+    name, num = input().strip().split(' ')
+    phoneBook[name] = num
+
+#query phoneBook while there is input, exit when EOF
+while(True):
+    try:
+        qName = input().strip()
+        if qName in phoneBook:
+            print('{}={}'.format(qName, phoneBook[qName]))
+        else:
+            print('Not found')
+    except EOFError:
+        break
+'''Sample Input
+
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+
+Sample Output
+
+sam=99912222
+Not found
+harry=12299933
+'''
