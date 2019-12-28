@@ -1,0 +1,16 @@
+#!/bin/python3
+
+import sys
+
+n = int(input().strip())
+a = list(map(int, input().strip().split(' ')))
+no_of_Swap = 0
+for j in range(len(a)-1,0,-1):
+    for i in range(j):
+        if a[i]>a[i+1]:
+            a[i],a[i+1]=a[i+1],a[i]
+            no_of_Swap += 1
+        nos = no_of_Swap
+print('Array is sorted in',nos,'swaps.')
+print('First Element:',a[i])
+print('Last Element:',a[-1])
