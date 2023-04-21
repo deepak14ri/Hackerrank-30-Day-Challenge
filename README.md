@@ -4,6 +4,6 @@
 Hello there, Here are the 30-Days Hackerrank coding challenge solutions using Python which is really important for fresh coders who just started coding. It will help you to understand all kind of competative conding challenges.
 
 # Leave a note for queries:
-Email ID: deepak14ri@outlook.com 
-HackerRank Profile: https://www.hackerrank.com/deepakchaudhari2
+ <strong>Email ID:</strong> deepak14ri@outlook.com <br>
+ <strong>Techgig Profile: </strong>https://www.hackerrank.com/deepakchaudhari2
 
